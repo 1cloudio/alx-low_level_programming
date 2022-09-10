@@ -19,7 +19,6 @@ int main(void)
 						{
 						putchar(e);
 						putchar(f);
-						putchar(' ');
 						putchar(g);
 						putchar(h);
 						}
@@ -29,7 +28,6 @@ int main(void)
 					}
 					else
 					putchar(',');
-					putchar(' ');
 					}
 				}
 			}

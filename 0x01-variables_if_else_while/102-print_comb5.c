@@ -19,6 +19,7 @@ int main(void)
 						{
 						putchar(e);
 						putchar(f);
+						putchar(' ');
 						putchar(g);
 						putchar(h);
 						}
@@ -27,6 +28,8 @@ int main(void)
 					break;
 					}
 					else
+						putchar(' ');
+						putchar(',');
 					}
 				}
 			}

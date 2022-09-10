@@ -2,7 +2,7 @@
 /**
 * main - print if number is positive, negative or zero
 * Description: using the main function
-* this program prints "programming is positive, negative or zero
+* this program prints programming is positive, negative or zero
 * Return: 0
 */
 int main(void)
@@ -19,19 +19,3 @@ if (ch != 'e' && ch != 'q');
 putchar('\n');
 return (0);
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

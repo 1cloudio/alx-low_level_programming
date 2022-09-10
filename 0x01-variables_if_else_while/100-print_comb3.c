@@ -8,33 +8,33 @@ int main(void)
 {
 	int e, f, g, h;
 		for (e = 35; e <= 72; e++)
-	{
-		for (f = 35; f <= 72; f++)
 		{
-			for (g = 35; g <= 72; g++)
+			for (f = 35; f <= 72; f++)
 			{
-				for (h = 35; h <= 72; h++)
+				for (g = 35; g <= 72; g++)
 				{
-					if (((g + h) > (e + f) && g >= e) || e < g)
+					for (h = 35; h <= 72; h++)
 					{
+					if (((g + h) > (e + f) && g >= e) || e < g)
+						{
 						putchar(e);
 						putchar(f);
 						putchar(' ');
 						putchar(g);
 						putchar(h);
 					if (e + f + g + h == 289 && e == 72)
-					{
-					break;
-					}
+						{
+						break;
+						}
 					else
-					putchar(',');
-					putchar(' ');
-					}
+						putchar(',');
+						putchar(' ');
+						}
 					}
 				}
 			}
 		}
 	}
-putchar('\n');
-return (0);
+	putchar('\n');
+	return (0);
 }

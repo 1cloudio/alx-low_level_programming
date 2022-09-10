@@ -22,19 +22,19 @@ int main(void)
 						putchar(' ');
 						putchar(g);
 						putchar(h);
+						}
 					if (e + f + g + h == 289 && e == 72)
-						{
-						break;
-						}
+					{
+					break;
+					}
 					else
-						putchar(',');
-						putchar(' ');
-						}
+					putchar(',');
+					putchar(' ');
 					}
 				}
 			}
 		}
-	}
+
 	putchar('\n');
 	return (0);
 }

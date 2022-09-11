@@ -15,7 +15,7 @@ int main(void)
 				{
 					for (h = 35; h <= 72; h++)
 					{
-					if (((g + h) > (e + f) && g >= e) || e < g)
+				if (((g + h) > (e + f) && g >= e) || e <g)
 						{
 						putchar(e);
 						putchar(f);

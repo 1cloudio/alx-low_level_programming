@@ -6,30 +6,32 @@
 
 int main(void)
 {
-	int e, f, g, h;
-		for (e = 35; e <= 72; e++)
+	int c, i, k, j;
+		for (c = 48; c <= 57; c++)
 		{
-			for (f = 35; f <= 72; f++)
+			for (i = 48; i <= 57; i++)
 			{
-				for (g = 35; g <= 72; g++)
+				for (k = 48; k <= 57; k++)
 				{
-					for (h = 35; h <= 72; h++)
+					for (j = 48; j <= 57; j++)
 					{
-				if (((g + h) > (e + f) && g >= e) || e <g)
-						{
-						putchar(e);
-						putchar(f);
-						putchar(' ');
-						putchar(g);
-						putchar(h);
-						}
-					if (e + f + g + h == 289 && e == 72)
+
+				if (((k + j) > (c + i) && k >= c) || c < k)
+					{
+					putchar(c);
+					putchar(i);
+					putchar(' ');
+					putchar(k);
+					putchar(j);
+					}
+				if (c + i + k + j == 227 && c == 57)
 					{
 					break;
 					}
 					else
 					putchar(',');
 					putchar(' ');
+					}
 					}
 				}
 			}

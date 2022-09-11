@@ -19,7 +19,7 @@ if (((k + j) > (c + i) && k >= c) || c < k)
 	{
 	putchar(c);
 	putchar(i);
-	putchar(' ');
+	putchar(',');
 	putchar(k);
 	putchar(j);
 	}

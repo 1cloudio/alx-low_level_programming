@@ -19,8 +19,8 @@ int main(void)
 
 					if (x != '8' || (x == '8' && z != '9'))
 					{
-						putchar(' ');
 						putchar(',');
+						putchar(' ');
 					}
 
 				}

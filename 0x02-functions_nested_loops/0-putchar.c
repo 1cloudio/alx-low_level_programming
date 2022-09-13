@@ -4,7 +4,6 @@
  * main - write a program that prints _putchar
  * Return: 0
  */
-
 int main(void)
 {
 	_putchar('_');
@@ -16,6 +15,5 @@ int main(void)
 	_putchar('a');
 	_putchar('r');
 	_putchar('\n');
-
-	return (write(1, &c, 1));
+	return (0);
 }

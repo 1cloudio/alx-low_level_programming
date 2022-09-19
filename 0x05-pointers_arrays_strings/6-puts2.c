@@ -3,7 +3,7 @@
 
 /**
  * puts2 - function that prints every other character of a string
- * @s: string
+ * @str: string
  * Return: 0
  */
 

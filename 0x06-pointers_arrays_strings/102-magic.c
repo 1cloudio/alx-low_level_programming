@@ -15,6 +15,7 @@ int main(void)
 	z[2] = 1024;
 	p = &m;
 
+
 	*(p + 5) = 98;
 	printf("z[2] =%d\n", z[2]);
 

@@ -3,7 +3,8 @@
 /**
  * factorial -  a function that returns the factorial of a given number.
  * @n: number to find  factorial of
- * Return: -1 if n < 0
+ * Return: factorial of number
+ * -1 if n < 0
  */
 
 int factorial(int n);

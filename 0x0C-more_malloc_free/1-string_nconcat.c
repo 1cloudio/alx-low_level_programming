@@ -6,16 +6,17 @@
  * @s1: first string.
  * @s2: second string.
  * @n: amount of bytes.
- * Return: a pointer to the concatenated string or NULL if the process fails
+ *
+ * Return: pointer to the allocated memory.
+ * if malloc fails, status value is equal to 98.
  */
-
 char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
 	char *sout;
 	unsigned int ls1, ls2, lsout, i;
 
 	if (s1 == NULL)
-		s2 = "";
+		s1 = "";
 
 	if (s2 == NULL)
 		s2 = "";
@@ -41,6 +42,8 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 			sout[i] = s1[i];
 		else
 			sout[i] = s2[i - ls1];
+
 	sout[i] = '\0';
+
 	return (sout);
 }

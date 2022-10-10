@@ -3,8 +3,8 @@
 
 /**
  * _copy  -   Make a copy of passed in argument
- *  @src:      Data to make copy of
- *  Return:    Pointer
+ * @src:      Data to make copy of
+ * Return:    Pointer
  */
 
 char *_copy(char *src)
@@ -26,9 +26,10 @@ char *_copy(char *src)
 	{
 		return (NULL);
 	}
+
 	for (i = 0; src[i] != '\0'; i++)
 	{
-		ptr[i] = src[1];
+		ptr[i] = src[i];
 	}
 
 	ptr[i] = '\0';
@@ -36,11 +37,11 @@ char *_copy(char *src)
 }
 
 /**
- * new_dog - creates a new dog
- * @name: dog's name
- * @age: dog's age
- * @owner: dog's owner
- * Return: Pointer to new dog variable
+ * new_dog     - Create a new dog variable
+ * @name:        Name of the dog
+ * @age:         Age of the dog
+ * @owner:       Owner of the dog
+ * Return:       Pointer to new dog variable
  */
 
 dog_t *new_dog(char *name, float age, char *owner)
@@ -78,7 +79,5 @@ dog_t *new_dog(char *name, float age, char *owner)
 	}
 	(*mutie).owner = new_owner;
 
-
 	return (mutie);
 }
-

@@ -26,6 +26,10 @@ char *_copy(char *src)
 	{
 		return (NULL);
 	}
+	for (i = 0; src[i] != '\0'; i++)
+	{
+		ptr[i] = src[1];
+	}
 
 	ptr[i] = '\0';
 	return (ptr);

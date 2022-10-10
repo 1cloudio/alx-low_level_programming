@@ -3,7 +3,7 @@
 
 /**
  * print_dog - prints a dog
- * d: dog to print
+ * @d: dog to print
  * Return: void
  */
 
